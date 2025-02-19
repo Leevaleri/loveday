@@ -1,0 +1,11 @@
+.stroka1 {
+  animation: stroke 4s linear infinite;
+}
+@keyframes stroke {
+  0% {
+    transform: translateX(5%);
+  }
+  100% {
+    transform: translateX(-25%);
+  }
+}

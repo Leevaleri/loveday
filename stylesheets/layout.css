@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 body {
-  width: 100%;
+  width: 100vw;
   background-color: #ffeaf5;
+}
+
+/* 1 экран */
+
+.firstecran {
+  height: 83.3vw;
+}
+.beg1 {
+  height: 7.3vw;
+  width: 100vw;
+  margin-top: 30vw;
+}
+.beg2 {
+  height: 7.3vw;
+  width: 100vw;
+  margin-top: 59vw;
 }
