@@ -9,15 +9,216 @@ body {
 /* 1 экран */
 
 .firstecran {
-  height: 83.3vw;
-}
-.beg1 {
-  height: 7.3vw;
+  height: 70vw;
   width: 100vw;
-  margin-top: 30vw;
 }
-.beg2 {
-  height: 7.3vw;
+
+.PET {
+  font-family: "Master of Festival";
+  font-size: 50vw;
+  color: #ffb1d8;
+  margin-top: -17vw;
+  margin-left: -2vw;
+  position: absolute;
+}
+
+.wed {
+  font-family: "Master of Festival";
+  font-size: 50vw;
+  color: #ffb1d8;
+  margin-top: 19vw;
+  margin-left: 19vw;
+  position: absolute;
+}
+
+.otkr1 {
+  position: absolute;
+  height: 35vw;
+  width: 35vw;
+  margin-top: 15vw;
+  margin-left: 2vw;
+}
+
+.otkr2 {
+  position: absolute;
+  height: 35vw;
+  width: 35vw;
+  margin-top: 15vw;
+  margin-left: 32vw;
+}
+
+.otkr3 {
+  position: absolute;
+  height: 35vw;
+  width: 35vw;
+  margin-top: 15vw;
+  margin-left: 63vw;
+}
+
+/* 2 экран */
+.secondecran {
+  height: 47vw;
   width: 100vw;
-  margin-top: 59vw;
+  background-image: url(../images/rad.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.oblako1 {
+  position: absolute;
+  height: 40vw;
+  width: 70vw;
+  margin-top: 7vw;
+  margin-left: -10vw;
+}
+
+.oblako2 {
+  position: absolute;
+  height: 45vw;
+  width: 56vw;
+  margin-top: 2vw;
+  margin-left: 44vw;
+}
+
+.doma1 {
+  position: absolute;
+  height: 20vw;
+  width: 90vw;
+  margin-top: 27vw;
+  margin-left: 10vw;
+}
+
+.vday {
+  padding-top: 17vw;
+  font-family: "Master of Festival";
+  font-size: 5vw;
+  color: #ff00ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  text-align: center;
+}
+
+.text1 {
+  position: absolute;
+  height: 2vw;
+  width: 36vw;
+  margin-top: 22vw;
+  margin-left: 41vw;
+}
+
+.domik1 {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  margin-top: 5vw;
+  margin-left: -4vw;
+}
+.domik12 {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  margin-top: 5vw;
+  margin-left: -4vw;
+  opacity: 0;
+}
+
+.domik2 {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  margin-top: 5.5vw;
+  margin-left: 35vw;
+}
+.domik22 {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  margin-top: 5.5vw;
+  margin-left: 35vw;
+  opacity: 0;
+}
+
+.domik3 {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  margin-top: 5.5vw;
+  margin-left: 55vw;
+}
+.domik32 {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  margin-top: 5.5vw;
+  margin-left: 55vw;
+  opacity: 0;
+}
+
+.domik4 {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  margin-top: 5.6vw;
+  margin-left: 65vw;
+}
+.domik42 {
+  position: absolute;
+  height: 20vw;
+  width: 25vw;
+  margin-top: 5.6vw;
+  margin-left: 65vw;
+  opacity: 0;
+}
+
+/* 3 экран */
+.triecran {
+  height: 65vw;
+  width: 100vw;
+  background-image: url(../images/obloko3.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.angel1 {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  margin-top: 4vw;
+  margin-left: 2vw;
+}
+
+.angel2 {
+  position: absolute;
+  height: 20vw;
+  width: 20vw;
+  margin-top: 3vw;
+  margin-left: 78vw;
+}
+
+.lapka {
+  position: absolute;
+  height: 55vw;
+  width: 55vw;
+  margin-top: 20vw;
+  margin-left: 9vw;
+}
+
+.text2 {
+  padding-top: 5vw;
+  font-family: "Master of Festival";
+  font-size: 5vw;
+  color: #ff00ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  text-align: center;
 }

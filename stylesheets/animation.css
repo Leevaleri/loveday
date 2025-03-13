@@ -1,11 +1,89 @@
-.stroka1 {
-  animation: stroke 4s linear infinite;
+.otkr1 {
+  animation: otkr1 1.6s linear infinite;
 }
-@keyframes stroke {
+@keyframes otkr1 {
   0% {
-    transform: translateX(5%);
+    transform: rotate(-11deg);
+  }
+  50% {
+    transform: rotate(10deg);
   }
   100% {
-    transform: translateX(-25%);
+    transform: rotate(-11deg);
   }
+}
+
+.otkr2 {
+  animation: otkr2 1.1s linear infinite;
+}
+@keyframes otkr2 {
+  0% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(9deg);
+  }
+}
+
+.otkr3 {
+  animation: otkr3 1.3s linear infinite;
+}
+@keyframes otkr3 {
+  0% {
+    transform: rotate(-11deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-11deg);
+  }
+}
+
+.angel1 {
+  animation: angel1 2s linear infinite;
+}
+
+@keyframes angel1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.angel2 {
+  animation: angel2 2s linear infinite;
+}
+
+@keyframes angel2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2vw);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.domik12:hover {
+  opacity: 1;
+}
+.domik22:hover {
+  opacity: 1;
+}
+.domik32:hover {
+  opacity: 1;
+}
+.domik42:hover {
+  opacity: 1;
 }
