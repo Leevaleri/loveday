@@ -177,7 +177,7 @@ body {
 
 /* 3 экран */
 .triecran {
-  height: 65vw;
+  height: 80vw;
   width: 100vw;
   background-image: url(../images/obloko3.svg);
   background-repeat: no-repeat;
@@ -221,4 +221,201 @@ body {
   position: relative;
   z-index: 20;
   text-align: center;
+}
+
+/* 4 экран */
+.fourecran {
+  height: 70vw;
+  width: 100vw;
+}
+
+.text3 {
+  font-family: "Master of Festival";
+  font-size: 7vw;
+  color: #ff00ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  position: relative;
+  z-index: 20;
+  text-align: center;
+  margin-top: -7vw;
+}
+
+.zanaves {
+  position: absolute;
+  height: 63vw;
+  width: 100vw;
+  margin-top: 0vw;
+  margin-left: 0vw;
+}
+
+.gir1 {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  margin-top: 5.5vw;
+  margin-left: 21vw;
+}
+/*.gir3 {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  margin-top: 5.5vw;
+  margin-left: 21vw;
+}*/
+
+.gir2 {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  margin-top: 5vw;
+  margin-left: 50vw;
+}
+/*.gir4 {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  margin-top: 5vw;
+  margin-left: 50vw;
+}*/
+
+.rama1 {
+  position: absolute;
+  height: 10vw;
+  width: 15vw;
+  margin-top: 40vw;
+  margin-left: 16vw;
+}
+.rama2 {
+  position: absolute;
+  height: 10vw;
+  width: 15vw;
+  margin-top: 52vw;
+  margin-left: 16vw;
+}
+.rama3 {
+  position: absolute;
+  height: 10vw;
+  width: 15vw;
+  margin-top: 40vw;
+  margin-left: 70vw;
+}
+.rama4 {
+  position: absolute;
+  height: 10vw;
+  width: 15vw;
+  margin-top: 52vw;
+  margin-left: 70vw;
+}
+
+.sveh1 {
+  position: absolute;
+  height: 8vw;
+  width: 6vw;
+  margin-top: 31vw;
+  margin-left: 42vw;
+}
+/*.sveh3 {
+  position: absolute;
+  height: 15vw;
+  width: 15vw;
+  margin-top: 24vw;
+  margin-left: 37.5vw;
+  opacity: 0;
+}*/
+.sveh2 {
+  position: absolute;
+  height: 8vw;
+  width: 6vw;
+  margin-top: 31vw;
+  margin-left: 51vw;
+}
+/* .sveh4 {
+  position: absolute;
+  height: 15vw;
+  width: 15vw;
+  margin-top: 24vw;
+  margin-left: 46.5vw;
+  opacity: 0; */
+
+.eda1 {
+  position: absolute;
+  height: 7vw;
+  width: 7vw;
+  margin-top: 32vw;
+  margin-left: 22vw;
+}
+.eda2 {
+  position: absolute;
+  height: 7vw;
+  width: 7vw;
+  margin-top: 28vw;
+  margin-left: 17.5vw;
+}
+
+.eda3 {
+  position: absolute;
+  height: 8vw;
+  width: 8vw;
+  margin-top: 43.5vw;
+  margin-left: 75.6vw;
+}
+.eda4 {
+  position: absolute;
+  height: 8vw;
+  width: 8vw;
+  margin-top: 39vw;
+  margin-left: 72vw;
+}
+
+.bocal1 {
+  position: absolute;
+  height: 8vw;
+  width: 8vw;
+  margin-top: 30vw;
+  margin-left: 76vw;
+}
+.bocal2 {
+  position: absolute;
+  height: 8vw;
+  width: 8vw;
+  margin-top: 30vw;
+  margin-left: 71vw;
+}
+
+.vaza {
+  position: absolute;
+  height: 11vw;
+  width: 11vw;
+  margin-top: 39.8vw;
+  margin-left: 17.5vw;
+}
+
+/* 5 экран */
+.fiveecran {
+  height: 40vw;
+  width: 100vw;
+  background-image: url(../images/fon.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text4 {
+  position: absolute;
+  height: 30vw;
+  width: 35vw;
+  margin-top: 7vw;
+  margin-left: 64vw;
+}
+
+.text5 {
+  font-family: "Master of Festival";
+  font-size: 4.5vw;
+  color: #001aff;
+  position: relative;
+  padding-top: 34vw;
+  padding-left: 1vw;
 }

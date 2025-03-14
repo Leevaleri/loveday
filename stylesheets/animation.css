@@ -87,3 +87,42 @@
 .domik42:hover {
   opacity: 1;
 }
+
+/*.sveh3:hover {
+  opacity: 1;
+}
+.sveh4:hover {
+  opacity: 1;
+}*/
+
+.oblako2 {
+  animation: angel2 4s linear infinite;
+}
+
+@keyframes angel2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.oblako1 {
+  animation: angel2 6s linear infinite;
+}
+
+@keyframes angel2 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
